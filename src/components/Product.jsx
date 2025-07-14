@@ -26,7 +26,7 @@ function Product({ product }) {
         </button>
       )}
       {itemInCart && (
-        <div className="card-action-btns">
+        <div className="card-action-btns flex items-center gap-5">
           <button
             onClick={() => {
               if (itemInCart.amount == 1) {
